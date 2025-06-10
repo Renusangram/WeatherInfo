@@ -1,13 +1,13 @@
 //store weather img
 //sunny, rainy, clear, snow, haze, cloudy, mist, smoke, default
 const img = [
-    "../images/hotcoldpng.png",
-  "../images/rain.png",
-  "../images/clear.png",
-  "../images/snow.png",
-  "../images/haze.png",
-  "../images/cloudy.png",
-"../images/mist.png", "../images/smoke.png", "" 
+    "/images/hotcoldpng.png",
+  "/images/rain.png",
+  "/images/clear.png",
+  "/images/snow.png",
+  "/images/haze.png",
+  "/images/cloudy.png",
+"/images/mist.png", "/images/smoke.png", "" 
 ];
 //get vars
 const bg = document.querySelector(".app");
