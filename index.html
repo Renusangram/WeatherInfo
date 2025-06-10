@@ -1,0 +1,83 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+   
+    <div class="app">
+      <input type="text" id="input" placeholder="enter city"/>
+      <div class="more">
+        <div class="close">
+          <ion-icon id="close" name="close-circle"></ion-icon>
+        </div>
+        <div class="rows">
+        <div class="box">
+          
+          <p id="feels-like">feels like</p>
+          <img src="/images/hotcoldpng.png" id="icon">
+          
+        </div>
+         <div class="box">
+           
+           <p id="rain">rain</p>
+           <img src="/images/rain.png" id="icon">
+         </div>
+        </div>
+         <div class="rows">
+        <div class="box">
+          
+          <p id="wind-speed">wind</p>
+          <img src="/images/winddirectionpng.png" id="icon">
+          
+        </div>
+         <div class="box">
+           
+           <p id="visibility">visibility</p>
+           <img src="/images/visibility.png" id="icon">
+         </div>
+        </div>
+      </div>
+      <div class="description">
+        <p id="desc"></p>
+      </div>
+      <div class="icon">
+        <img src ="/images/sunny.png" id="weather-status-icon">
+      </div>
+      <div class="temperature">
+        <p>weather</p>
+        <h id="temp">t °c</h>
+      </div>
+      <div class="additional-info">
+        <div class="cube">
+          <div class="row">
+          <p>humidity</p>
+          </div>
+          <div class="row">
+            <img src= "/images/humidity.png" id="cube-img">
+          </div>
+          <div class="row">
+            <p1 id="humidity">humid</p1>
+          </div>
+        </div>
+        <div class="cube">
+           <div class="row">
+          <p>wind</p>
+             </div>
+           <div class="row">
+          <img src="/images/wind.png" id="cube-img">
+          </div>
+          <div class="row">
+            <p1 id="wind">wind</p1>
+          </div>
+        </div>
+        <div class="cube">
+          <ion-icon id="more" name="chevron-up"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+  </html>
